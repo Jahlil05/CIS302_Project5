@@ -1,0 +1,76 @@
+/*
+   
+   Project 5 Style Sheet 
+   Author: Jahlil Mendoza
+   Date: November 24th, 2023  
+   
+   Filename: project5.css
+
+*/
+
+body {
+	margin: 0;
+    background-image: url("lt.gif");
+    background-position: center;
+    background-size: 100%;
+	font-family: "Times New Roman", serif;
+
+}
+
+h1 {
+	font-size: 60px;
+	transform: translateY(-140px);
+}
+
+.panel {
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(5, 84, 255);
+	text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000;
+}
+
+.question {
+	font-size: 40px;
+	margin-bottom: 50px;
+	transform: translateY(-40px);
+}
+
+.options {
+	font-size: 40px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 60px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	position: center;
+	top: 35%;
+	left: center;
+}
+
+button {
+	margin: center;
+	margin-top: 1%;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #0755d3;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-family: "Times New Roman", serif;
+}
+
+#score {
+	font-size: 70px;
+	color: rgb(208, 61, 2);
+    float: right;
+}
+
+#superWinner {
+    clear: right;
+    float: right;
+    font-size: 70px;
+    color: #0755d3;
+}
